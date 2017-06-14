@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Урок 1.</title>
+    <title>Урок 2.</title>
   </head>
   <body>
     <!-- Коментарий -->

@@ -47,11 +47,51 @@ echo "</select>";
 
 */
 
+/*
 $i = 10;
 do {
   echo $i++.'<br>';
 } while ($i <= 10);
 
-?>
+*/
+
+
+// ДЗ - Нарисовать таблицу умножения.
+// Мой код
+
+/*
+
+echo "<table border='1'>\n";
+$i = 1;
+while ($i <= 9) {
+  echo "\t<tr>\n";
+  $n = 1;
+  while ($n <= 9) {
+    $res = $i * $n;
+    echo "\t\t<td> $i * $n = {$res} </td>\n";
+    $n++;
+  }
+  echo "\t</tr>\n";
+  $i++;
+}
+echo "</table>\n";
+
+*/
+
+// Код преподователя.
+$x = 1;    // Кол-во рядов
+echo "<table border='1'>\n";
+while ($x <= 10) {
+  echo "\t<tr>\n";
+  $y = 1;
+  while ($y < 10) {
+    echo "\t\t<td>$x * $y = " . $x * $y . "</td>\n";
+    $y++;
+  }
+  echo "\t</tr>\n";
+  $x++;
+}
+echo '</table>'
+?>а
   </body>
 </html>

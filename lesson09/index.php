@@ -88,12 +88,22 @@ echo "<pre>";
 print_r($goods);
 echo "</pre>";
 
-echo $goods[0]['title'] . ' - ' . $goods[0]['price'];
-echo '<br>';
-echo $goods[1]['title'] . ' - ' . $goods[1]['price'];
+// echo $goods[0]['title'] . ' - ' . $goods[0]['price'];
+// echo '<br>';
+// echo $goods[1]['title'] . ' - ' . $goods[1]['price'];
 
+echo "<br>---------------<br>";
 
-
+# ДЗ. Перебрать весь массив с помощью цикла while()
+$i = 0;
+while ($i < count($goods)) {
+    echo "<pre>";
+    echo $goods[$i]['title']."<br>";
+    echo $goods[$i]['price']."<br>";
+    echo $goods[$i]['description']."<br>";
+    echo "</pre>";
+    $i++;
+}
 
 
 

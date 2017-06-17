@@ -92,6 +92,6 @@ while ($x <= 10) {
   $x++;
 }
 echo '</table>'
-?>а
+?>
   </body>
 </html>

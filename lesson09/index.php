@@ -81,6 +81,11 @@ $goods = [
     'title' => 'iPad',
     'price' => 200,
     'description' => 'Description'
+  ],
+  [
+    'title' => 'Sony',
+    'price' => 300,
+    'description' => 'Description'
   ]
 ];
 
@@ -95,6 +100,8 @@ echo "</pre>";
 echo "<br>---------------<br>";
 
 # ДЗ. Перебрать весь массив с помощью цикла while()
+// Моя решения.
+
 $i = 0;
 while ($i < count($goods)) {
     echo "<pre>";
@@ -105,6 +112,14 @@ while ($i < count($goods)) {
     $i++;
 }
 
+
+// Решения преподователя.
+$i = 0;
+while ($i < 3) {
+  echo $goods[$i]['title'] . ' - ' . $goods[$i]['price'] . ' - ' . $goods[$i]['description'];
+  echo '<br>';
+  $i++;
+}
 
 
 

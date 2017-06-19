@@ -70,11 +70,14 @@ echo "<table>";
 
 
 # Выподающий список.
+/*
 echo "<select>";
 for ($year = 2000; $year <= 2017; $year++) {
   echo "<option value = '$year'> $year </option>";
 }
 echo "</select>";
+
+*/
 
 
 

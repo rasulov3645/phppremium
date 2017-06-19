@@ -53,7 +53,28 @@ for($i = 0; $i < count($arr); $i++){
 */
 
 
-# Потренироваться с использованием цикла for
+# ДЗ. Потренироваться с использованием цикла for
+
+# 1 Вывод таблицы умножения.
+/*
+echo "<table border='1'>\n";
+for ($i = 1; $i < 10; $i++){
+  echo "\t<tr>\n";
+  for ($j = 1; $j < 10; $j++){
+    echo "\t\t<td> $i * $j = ". $i * $j . "</td>\n";
+  }
+  echo "\t</tr>\n";
+}
+echo "<table>";
+*/
+
+
+# Выподающий список.
+echo "<select>";
+for ($year = 2000; $year <= 2017; $year++) {
+  echo "<option value = '$year'> $year </option>";
+}
+echo "</select>";
 
 
 

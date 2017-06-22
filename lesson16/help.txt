@@ -1,0 +1,8 @@
+Урок 16. Функция header в PHP. Часть 1
+
+Файл .htaccess
+#AddDefaultCharset windows-1251
+#AddDefaultCharset utf-8
+
+В версии php 5.6 и выше нужно еще и команда.
+php_flag default_charset windows-1251

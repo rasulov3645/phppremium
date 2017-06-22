@@ -4,6 +4,7 @@ error_reporting(-1);
 # Подключения файлов.
 require_once 'funcs_sum.php';
 require_once 'my_array_keys.php';
+require_once 'array_count.php';
 
 $nums = [1, 2, 3];
 $names = ['Ivanov', 'Petrov'];
@@ -51,7 +52,7 @@ echo $a;
 
 
 # Пример 1. Создать функцию которая делаеть,
-# которая делаеть, тоже самое что и функция
+# тоже самое что и функция
 # array_keys()
 
 # Оригинальная функция.
@@ -81,7 +82,16 @@ $arr2 = [];
 // print_r($keys3);
 
 
+# ДЗ. Создать функцию которая делаеть,
+# тоже самое что и функция count()
 
+# Проверка 1. (успешно).
+// $res_count = array_count($arr);
+// echo $res_count;
+
+# Проверка 2. (успешно).
+$res_count2 = array_count($arr2);
+echo $res_count2;
 
 
 

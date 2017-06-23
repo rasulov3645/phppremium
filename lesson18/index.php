@@ -99,12 +99,6 @@ echo trim($str, "\t");
 
 #10.
 #nl2br — Вставляет HTML-код разрыва строки перед каждым переводом строки
-$str = "Hello\nworld\n";
+//$str = "Hello\nworld\n";
 //echo $str;
-echo nl2br($str);
-
-
-
-#11.
-
-#12.
+//echo nl2br($str);

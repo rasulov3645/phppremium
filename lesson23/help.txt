@@ -1,1 +1,4 @@
 Урок 23. Методы GET и POST в PHP
+
+Ссылка на документацию
+http://php.net/manual/ru/reserved.variables.php

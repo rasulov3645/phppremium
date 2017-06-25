@@ -1,0 +1,5 @@
+Урок 24. Загрузка файлов в PHP
+
+Ссылка на документацию
+1) http://php.net/manual/ru/reserved.variables.php
+2) http://php.net/manual/ru/language.variables.superglobals.php

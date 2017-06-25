@@ -1,0 +1,4 @@
+Урок 25. Работа с сессиями в PHP
+
+Ссылка на документацию
+1) http://php.net/manual/ru/intro.session.php

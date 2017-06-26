@@ -1,5 +1,11 @@
 Урок 26. Работа с куками в PHP
 
+
+# Официальная докуменьтация.
 1) http://php.net/manual/ru/function.setcookie.php
 2) http://php.net/manual/ru/function.setcookie.php
 3) http://php.net/manual/ru/features.cookies.php
+
+# Из других источников.
+1) http://www.php.su/phphttp/?cookies
+2) http://www.php.su/setcookie()

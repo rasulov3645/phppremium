@@ -1,0 +1,5 @@
+Урок 26. Работа с куками в PHP
+
+1) http://php.net/manual/ru/function.setcookie.php
+2) http://php.net/manual/ru/function.setcookie.php
+3) http://php.net/manual/ru/features.cookies.php

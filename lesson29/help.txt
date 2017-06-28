@@ -1,0 +1,4 @@
+Урок 29. Сервер MySQL
+
+Ссылки на документация:
+1) http://php.net/manual/ru/mysqli.summary.php
